@@ -1,0 +1,21 @@
+{
+  "name": "candidate-tester",
+  "version": "0.0.1",
+  "description": "This is intended to used as instructions for completing the Norigin Media testing task for new candidates",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoriginMedia/candidate-tester.git"
+  },
+  "scripts": {
+    "start:mock-api": "./node_modules/.bin/osprey-mock-service -f ./node_modules/nm-mock-api/demo.raml -p 1337 --cors"
+  },
+  "author": "Dylan Thomson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NoriginMedia/candidate-tester/issues"
+  },
+  "homepage": "https://github.com/NoriginMedia/candidate-tester#readme",
+  "dependencies": {
+    "nm-mock-api": "git+https://github.com/NoriginMedia/mock-api#cloudberry"
+  }
+}
