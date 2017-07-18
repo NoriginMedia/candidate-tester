@@ -1,5 +1,5 @@
 ## Candidate-Tester
-This Repo is intended to instruct new Frontend web candidates on steps to follow for completing the Norigin Media testing task.
+This Repo is intended to instruct new Frontend developer (Native & Web) candidates on the steps to follow for completing the Norigin Media testing task.
 
 ---
 
@@ -7,26 +7,32 @@ This Repo is intended to instruct new Frontend web candidates on steps to follow
 
 * Your coding skills.
 * Intuition for design & UX.
-* Framework & Tooling knowledge.
+* Platform, Framework & Tooling knowledge.
 * Packaging and production readiness.
 
 #### Requirements :
 
- * Build a single screen of a web application (**EPG Screen**) using your choice of JS tooling / framework.
+ * Build a single screen of web or native application (**EPG Screen**) using your choice of framework / tooling
+ 
+    **NOTE:** For *Web Developers*: React, Vue.js, React-Native, Vanilla JS, Angular2, Typescript for example - No restrictions apply.
+    
+    **NOTE:** For *Native Developers*: Java, Kotlin, React-Native, Swift, ObjectiveC - No restrictions to tooling or frameworks apply.
+ 
  * Use the designs in the `./mockups` folder to guide your work. 
  * Use **Mock-Api** package included to supply the EPG data. See `package.json`.
- * Implementation should be inline with production expectations.
- * Task submission is expected to be in NPM package format (**Preferably via GitHub**) with simple steps to install and run. Pass the link to your contact with our management or your recruiter when you're done.
- * Task is not expected to take any more than 2 - 3 days.
+ * For Web developers task submission is expected to be in NPM package format (**Preferably via GitHub**) with simple steps to install and run. Pass the link to your contact with our management or your recruiter when you're done. 
+ 
+    **NOTE:** For *Native Developers*: Alternatively methods of submission are acceptible for Android & iOS projects.
+ 
+ * Task is not expected to take any more than 2 days of your time.
 
-**NOTE:** There is no need to use this tester repo as the basis for your task. You can rework it, supply your own structure and include the dependencies however you prefer.
+**NOTE:** There is no need to use this tester repo as the basis for your task. You can rework it, supply your own structure and include the libraries / dependencies however you prefer.
 
-#### Bonus Points (But not required!):
+#### Cool to have (But not required and wont negatively impact assessment):
 
 * Add more interactions, animations or just nail the UX.
-* Additional screens or **alternate designs :)**.
+* Additional screens using mock data api.
 * Responsive layouts for multi-screen support.
-* Implement app as hybrid app for packaging on mobile: Example (Phone Gap/ Cordova or React-Native).
 * Make performance and optimization considerations.
 * Go Nuts!
 
@@ -50,8 +56,8 @@ NOTE: Additional screens are optional and only if you really want to impress us 
 
 We have provided a basic mock api to supply EPG data for this task. 
 
-This is packaged as a standard NPM module. To install simply run: `-> npm insall` from the project root directory.
-Of course Node.JS should be installed beforehand.
+This is packaged as a standard Node NPM module. To install simply run: `-> npm insall` from the project root directory.
+Of course Node.JS should be installed beforehand. For native developers no familar with NPM heres the [NPM Documentation](https://docs.npmjs.com/getting-started/installing-node)
 
 To run the mock-api server execute the command below:
 
