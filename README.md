@@ -22,7 +22,7 @@ This Repo is intended to instruct new Frontend developer (Native & Web) candidat
  * Use **Mock-Api** package included to supply the EPG data. See `package.json`.
  * For Web developers task submission is expected to be in NPM package format (**Preferably via GitHub**) with simple steps to install and run. Pass the link to your contact with our management or your recruiter when you're done. 
  
-    **NOTE:** For *Native Developers*: Alternatively methods of submission are acceptible for Android & iOS projects.
+    **NOTE:** For *Native Developers*: Alternative methods of submission are acceptible for Android & iOS projects.
  
  * Task is not expected to take any more than 2 days of your time.
 
