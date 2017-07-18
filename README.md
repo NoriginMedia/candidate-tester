@@ -57,7 +57,7 @@ NOTE: Additional screens are optional and only if you really want to impress us 
 We have provided a basic mock api to supply EPG data for this task. 
 
 This is packaged as a standard Node NPM module. To install simply run: `-> npm insall` from the project root directory.
-Of course Node.JS should be installed beforehand. For native developers no familar with NPM heres the [NPM Documentation](https://docs.npmjs.com/getting-started/installing-node)
+Of course Node.JS should be installed beforehand. For Native Developers not familar with NPM here is the [NPM Documentation](https://docs.npmjs.com/getting-started/installing-node)
 
 To run the mock-api server execute the command below:
 
