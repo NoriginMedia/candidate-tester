@@ -16,7 +16,7 @@ This Repo is intended to instruct new Frontend developer (Native & Web) candidat
  
     **NOTE:** For *Web Developers*: React, Vue.js, React-Native, Vanilla JS, Angular2, Typescript for example - No restrictions apply.
     
-    **NOTE:** For *Native Developers*: Java, Kotlin, Swift, ObjectiveC - No restrictions to tooling or frameworks apply.
+    **NOTE:** For *Native Developers*: Java, Kotlin, ObjectiveC - No restrictions to tooling or frameworks apply.
  
  * Use the designs in the `./mockups` folder to guide your work. 
  * Use **Mock-Api** package included to supply the EPG data. See `package.json`.
