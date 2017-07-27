@@ -40,7 +40,7 @@ This Repo is intended to instruct new Frontend developer (Native & Web) candidat
 ---
 ## Design Example:
 
-We have included some mockup designs to act as a guide. You can find them in the `../mockups` folder.
+We have included some mockup designs to act as a guide. You can find them in the `./mockups` folder.
 
 Example EPG design:
 
