@@ -13,7 +13,7 @@ This Repo is intended to instruct new Frontend developer (Native & Web) candidat
 
 #### Requirements :
 
- * Build a single screen of web or native application (**EPG Screen**) using your choice of framework / tooling
+ * Build a single screen web or native application (**EPG Screen**) using your choice of framework / tooling
  
     **NOTE:** For *Web Developers*: React, Vue.js, React-Native, Vanilla JS / Typescript for example - No restrictions apply, however try to avoid using project generators / starter-kits / sample projects were possible.
     
