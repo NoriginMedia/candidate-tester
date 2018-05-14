@@ -7,14 +7,15 @@ This Repo is intended to instruct new Frontend developer (Native & Web) candidat
 
 * Your coding skills.
 * Intuition for design & UX.
+* Cross Screen / Browser.
 * Platform, Framework & Tooling knowledge.
-* Packaging and production readiness.
+* App packaging and production readiness.
 
 #### Requirements :
 
  * Build a single screen of web or native application (**EPG Screen**) using your choice of framework / tooling
  
-    **NOTE:** For *Web Developers*: React, Vue.js, React-Native, Vanilla JS, Angular2, Typescript for example - No restrictions apply.
+    **NOTE:** For *Web Developers*: React, Vue.js, React-Native, Vanilla JS / Typescript for example - No restrictions apply, however try to avoid using project generators / starter-kits / sample projects were possible.
     
     **NOTE:** For *Native Developers*: Java, Kotlin, ObjectiveC - No restrictions to tooling or frameworks apply.
  
@@ -28,13 +29,15 @@ This Repo is intended to instruct new Frontend developer (Native & Web) candidat
 
 **NOTE:** There is no need to use this tester repo as the basis for your task. You can rework it, supply your own structure and include the libraries / dependencies however you prefer.
 
+ * A base level of interactivity is expected regarding the progression of time and how this is refected in the EPG. For example the yellow line indicating the current program should update and change, as well as a functional auto-scroll shortcut to be triggered when pressing on the "NOW" button.
+
 #### Cool to have (But not required and wont negatively impact assessment):
 
 * Add more interactions, animations or just nail the UX.
-* Additional screens using mock data api.
 * Responsive layouts for multi-screen support.
 * Make performance and optimization considerations.
-* Go Nuts!
+* Additional screens using mock data api.
+* Additional EPG showing an alternative layout.
 
 
 ---
