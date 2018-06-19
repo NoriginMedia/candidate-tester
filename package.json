@@ -7,7 +7,8 @@
     "url": "git+https://github.com/NoriginMedia/candidate-tester.git"
   },
   "scripts": {
-    "start:mock-api": "node ./node_modules/nm-mock-api/scripts/updateEpg.js && ./node_modules/.bin/osprey-mock-service -f ./node_modules/nm-mock-api/demo.raml -p 1337 --cors"
+    "start:mock-api": "./node_modules/.bin/osprey-mock-service -f ./node_modules/nm-mock-api/demo.raml -p 1337 --cors",
+    "start": "node ./node_modules/nm-mock-api/scripts/updateEpg.js && npm run start:mock-api"
   },
   "author": "Dylan Thomson",
   "license": "MIT",
@@ -16,6 +17,6 @@
   },
   "homepage": "https://github.com/NoriginMedia/candidate-tester#readme",
   "dependencies": {
-    "nm-mock-api": "git+https://github.com/NoriginMedia/mock-api#cloudberry"
+    "nm-mock-api": "git+https://github.com/NoriginMedia/mock-api.git#cloudberry"
   }
 }

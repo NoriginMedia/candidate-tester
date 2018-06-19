@@ -62,10 +62,10 @@ We have provided a basic mock api to supply EPG data for this task.
 This is packaged as a standard Node NPM module. To install simply run: `-> npm install` from the project root directory.
 Of course Node.JS should be installed beforehand. For Native Developers not familar with NPM here is the [NPM Documentation](https://docs.npmjs.com/getting-started/installing-node)
 
-To run the mock-api server execute the command below:
+To run the update & run mock-api server execute the command below:
 
 ```
--> npm run start:mock-api
+-> npm run start
 ```
 You should see the server start on port 1337.
 ```
