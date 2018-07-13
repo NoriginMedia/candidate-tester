@@ -7,7 +7,7 @@ This Repo is intended to instruct new Frontend developer (Native & Web) candidat
 
 * Your coding skills.
 * Intuition for design & UX.
-* Cross Screen / Browser.
+* Multi Screen / Cross Browser allocations.
 * Platform, Framework & Tooling knowledge.
 * App packaging and production readiness.
 
