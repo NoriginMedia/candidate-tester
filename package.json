@@ -1,8 +1,8 @@
 {
-  "name": "epg-screen",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "form-submission",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,6 +10,8 @@
     "start:mock-api": "./node_modules/.bin/osprey-mock-service -f ./node_modules/nm-mock-api/demo.raml -p 1337 --cors",
     "start": "node ./node_modules/nm-mock-api/scripts/updateEpg.js && npm run start:mock-api"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "axios": "^1.1.3",
     "nm-mock-api": "git+https://github.com/NoriginMedia/mock-api.git#cloudberry",
@@ -20,7 +22,7 @@
     "@vitejs/plugin-vue": "^3.1.0",
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.18",
-    "tailwindcss": "^3.2.1",
+    "tailwindcss": "^3.1.8",
     "vite": "^3.1.0"
   }
 }
