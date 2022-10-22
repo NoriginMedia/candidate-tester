@@ -1,22 +1,21 @@
 {
-  "name": "candidate-tester",
-  "version": "0.0.1",
-  "description": "This is intended to used as instructions for completing the Norigin Media testing task for new candidates",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NoriginMedia/candidate-tester.git"
-  },
+  "name": "epg-screen",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "start:mock-api": "./node_modules/.bin/osprey-mock-service -f ./node_modules/nm-mock-api/demo.raml -p 1337 --cors",
     "start": "node ./node_modules/nm-mock-api/scripts/updateEpg.js && npm run start:mock-api"
   },
-  "author": "Dylan Thomson",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/NoriginMedia/candidate-tester/issues"
-  },
-  "homepage": "https://github.com/NoriginMedia/candidate-tester#readme",
   "dependencies": {
+    "vue": "^3.2.37",
     "nm-mock-api": "git+https://github.com/NoriginMedia/mock-api.git#cloudberry"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "vite": "^3.1.0"
   }
 }
