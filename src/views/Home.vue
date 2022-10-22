@@ -1,14 +1,12 @@
 <template>
-  <h1 class="m-3">{{ msg }}</h1>
-  <div class="text-center bg-red-500">1111</div>
-
+  <h1 class="m-3">home page</h1>
 </template>
 
 <script>
 import axios from 'axios';
 
 export default {
-  props: ['msg'],
+  name: 'Home',
   data() {
     return {
       epgData: []
