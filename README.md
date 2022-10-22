@@ -1,3 +1,13 @@
+# Vue 3 + Vite
+
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+
+## Recommended IDE Setup
+
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+  
+#Candidate-Tester-requirements
+
 ## Candidate-Tester
 This Repo is intended to instruct new Frontend developer (Native & Web) candidates on the steps to follow for completing the Norigin Media testing task.
 
@@ -13,23 +23,23 @@ This Repo is intended to instruct new Frontend developer (Native & Web) candidat
 
 #### Requirements :
 
- * Build a single screen web or native application (**EPG Screen**) using your choice of framework / tooling
- 
-    **NOTE:** For *Web Developers*: React, Vue.js, React-Native, Vanilla JS / Typescript for example - No restrictions apply, however try to avoid using project generators / starter-kits / sample projects were possible.
-    
-    **NOTE:** For *Native Developers*: Java, Kotlin, ObjectiveC - No restrictions to tooling or frameworks apply.
- 
- * Use the designs in the `./mockups` folder to guide your work. 
- * Use **Mock-Api** package included to supply the EPG data. See `package.json`.
- * For Web developers task submission is expected to be in NPM package format (**Preferably via GitHub**) with simple steps to install and run. Pass the link to your contact with our management or your recruiter when you're done. 
- 
-    **NOTE:** For *Native Developers*: Alternative methods of submission are acceptible for Android & iOS projects.
- 
- * Task is not expected to take any more than 2 days of your time.
+* Build a single screen web or native application (**EPG Screen**) using your choice of framework / tooling
+
+  **NOTE:** For *Web Developers*: React, Vue.js, React-Native, Vanilla JS / Typescript for example - No restrictions apply, however try to avoid using project generators / starter-kits / sample projects were possible.
+
+  **NOTE:** For *Native Developers*: Java, Kotlin, ObjectiveC - No restrictions to tooling or frameworks apply.
+
+* Use the designs in the `./mockups` folder to guide your work.
+* Use **Mock-Api** package included to supply the EPG data. See `package.json`.
+* For Web developers task submission is expected to be in NPM package format (**Preferably via GitHub**) with simple steps to install and run. Pass the link to your contact with our management or your recruiter when you're done.
+
+  **NOTE:** For *Native Developers*: Alternative methods of submission are acceptible for Android & iOS projects.
+
+* Task is not expected to take any more than 2 days of your time.
 
 **NOTE:** There is no need to use this tester repo as the basis for your task. You can rework it, supply your own structure and include the libraries / dependencies however you prefer.
 
- * A base level of interactivity is expected regarding the progression of time and how this is refected in the EPG. For example the yellow line indicating the current program should update and change, as well as a functional auto-scroll shortcut to be triggered when pressing on the "NOW" button.
+* A base level of interactivity is expected regarding the progression of time and how this is refected in the EPG. For example the yellow line indicating the current program should update and change, as well as a functional auto-scroll shortcut to be triggered when pressing on the "NOW" button.
 
 #### Cool to have (But not required and wont negatively impact assessment):
 
@@ -57,7 +67,7 @@ NOTE: Additional screens are optional and only if you really want to impress us 
 
 ## Mock-API:
 
-We have provided a basic mock api to supply EPG data for this task. 
+We have provided a basic mock api to supply EPG data for this task.
 
 This is packaged as a standard Node NPM module. To install simply run: `-> npm install` from the project root directory.
 Of course Node.JS should be installed beforehand. For Native Developers not familar with NPM here is the [NPM Documentation](https://docs.npmjs.com/getting-started/installing-node)
@@ -71,7 +81,7 @@ You should see the server start on port 1337.
 ```
 Mock service running at http://localhost:1337
 ```
-You can now request data from the mock-api: 
+You can now request data from the mock-api:
 `Try It: http://localhost:1337/epg`
 
 
