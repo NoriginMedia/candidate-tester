@@ -21,13 +21,11 @@ This Repo is intended to instruct new Frontend developer (Native & Web) candidat
  
  * Use the designs in the `./mockups` folder to guide your work. 
  * Use **Mock-Api** package included to supply the EPG data. See `package.json`.
- * For Web developers task submission is expected to be in NPM package format (**Preferably via GitHub**) with simple steps to install and run. Pass the link to your contact with our management or your recruiter when you're done. 
+ * For Web developers task submission is expected to be as a Github repo with simple steps to install and run. Pass the link to your contact with our management or your recruiter when you're done. 
  
     **NOTE:** For *Native Developers*: Alternative methods of submission are acceptible for Android & iOS projects.
  
  * Task is not expected to take any more than 2 days of your time.
-
-**NOTE:** There is no need to use this tester repo as the basis for your task. You can rework it, supply your own structure and include the libraries / dependencies however you prefer.
 
  * A base level of interactivity is expected regarding the progression of time and how this is refected in the EPG. For example the yellow line indicating the current program should update and change, as well as a functional auto-scroll shortcut to be triggered when pressing on the "NOW" button.
 
